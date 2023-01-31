@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guidesmiths/systemic-knex.git"
+    "url": "git+https://github.com/onebeyond/systemic-knex.git"
   },
   "keywords": [
     "systemic",
@@ -21,9 +21,9 @@
   "author": "GuideSmiths Ltd",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guidesmiths/systemic-knex/issues"
+    "url": "https://github.com/onebeyond/systemic-knex/issues"
   },
-  "homepage": "https://github.com/guidesmiths/systemic-knex#readme",
+  "homepage": "https://github.com/onebeyond/systemic-knex#readme",
   "dependencies": {
     "knex": "0.21.17"
   },

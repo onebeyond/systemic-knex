@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Code Climate Test Reporter
 
 on:
   push:

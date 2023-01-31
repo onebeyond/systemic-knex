@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "lint": "echo \"Error: no lint specified\" && exit 0"
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,11 @@
   "homepage": "https://github.com/guidesmiths/systemic-knex#readme",
   "dependencies": {
     "knex": "0.21.17"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
   },
   "devDependencies": {
     "jest": "28.1.3",

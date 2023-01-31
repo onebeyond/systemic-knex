@@ -26,6 +26,9 @@
   "dependencies": {
     "knex": "0.21.17"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "standard": {
     "env": [
       "jest"

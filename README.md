@@ -10,7 +10,7 @@
 </p>
 
 
-## Usage
+## ☕️ Usage
 ```js
 const System = require('systemic')
 const knex = require('systemic-knex')
@@ -44,7 +44,13 @@ new System()
     })
 ```
 
-### Parameters
+### 🚩 Compatibility versions
+
+| Version   |      Node.js      |  Knex |
+|----------|:-------------:|------:|
+| 1.0.0 |  10.x-14.x | 0.21.17 |
+| 2.0.0 |    14.x-19.x   |   0.21.17 |
 
 
+### 📚 Parameters
 Check out [the official documentation](http://knexjs.org/#Installation-client)

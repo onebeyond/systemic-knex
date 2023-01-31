@@ -1,27 +1,42 @@
 {
   "name": "systemic-knex",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A systemic Knex component",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "lint": "echo \"Error: no lint specified\" && exit 0"
+    "test": "jest  --verbose ./**/*.test.js",
+    "test:coverage": "jest --verbose ./**/*.test.js --coverage",
+    "test:watch": "jest --verbose ./**/*.test.js --watchAll",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guidesmiths/systemic-knex.git"
+    "url": "git+https://github.com/onebeyond/systemic-knex.git"
   },
   "keywords": [
     "systemic",
     "knex"
   ],
-  "author": "GuideSmiths Ltd",
+  "author": "One Beyond",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guidesmiths/systemic-knex/issues"
+    "url": "https://github.com/onebeyond/systemic-knex/issues"
   },
-  "homepage": "https://github.com/guidesmiths/systemic-knex#readme",
+  "homepage": "https://github.com/onebeyond/systemic-knex#readme",
   "dependencies": {
-    "knex": "^0.21.17"
+    "knex": "0.21.17"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "devDependencies": {
+    "jest": "28.1.3",
+    "standard": "16.0.4"
   }
 }

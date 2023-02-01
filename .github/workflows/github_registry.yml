@@ -18,6 +18,8 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@onebeyond'
       - run: npm ci
-      - run: npm publish
+      - run: |
+          npm config set scope "@onebeyond"
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

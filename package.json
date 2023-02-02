@@ -1,6 +1,6 @@
 {
   "name": "@onebeyond/systemic-knex",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A systemic Knex component",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/onebeyond/systemic-knex#readme",
   "dependencies": {
-    "knex": "0.95.11"
+    "knex": "0.95.12"
   },
   "engines": {
     "node": ">=14.0.0"

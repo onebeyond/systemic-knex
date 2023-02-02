@@ -13,7 +13,7 @@
 ## ☕️ Usage
 ```js
 const System = require('systemic')
-const knex = require('systemic-knex')
+const knex = require('@onebeyond/systemic-knex')
 
 new System()
     .configure({

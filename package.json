@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/onebeyond/systemic-knex#readme",
   "dependencies": {
-    "knex": "2.4.0"
+    "knex": "2.4.1"
   },
   "engines": {
     "node": ">=14.0.0"

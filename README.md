@@ -58,6 +58,7 @@ new System()
 | @onebeyond/knex-systemic@1.1.0 | 14.x-19.x | 0.95.10 |
 | @onebeyond/knex-systemic@1.1.1 | 14.x-19.x | 0.95.11 |
 | @onebeyond/knex-systemic@1.1.2 | 14.x-19.x | 0.95.12 |
+| @onebeyond/knex-systemic@1.1.3 | 14.x-19.x | 0.95.13 |
 
 ### 📚 Parameters
 Check out [the official documentation](http://knexjs.org/#Installation-client)

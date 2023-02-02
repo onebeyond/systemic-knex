@@ -1,6 +1,6 @@
 {
   "name": "@onebeyond/systemic-knex",
-  "version": "2.0.7",
+  "version": "3.0.0",
   "description": "A systemic Knex component",
   "main": "index.js",
   "scripts": {

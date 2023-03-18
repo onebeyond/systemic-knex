@@ -1,5 +1,7 @@
 <a href="https://codeclimate.com/github/onebeyond/systemic-knex/maintainability"><img src="https://api.codeclimate.com/v1/badges/4b69d0b8a26990aae802/maintainability" /></a>
 <a href="https://codeclimate.com/github/onebeyond/systemic-knex/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4b69d0b8a26990aae802/test_coverage" /></a>
+<a href="https://bestpractices.coreinfrastructure.org/projects/7143"><img 
+src="https://bestpractices.coreinfrastructure.org/projects/7143/badge"></a>
 
 <p align="center"><h1 align="center">
   systemic-knex

@@ -18,19 +18,19 @@ jobs:
         uses: step-security/harden-runner@03bee3930647ebbf994244c21ddbc0d4933aab4f # v2.3.0
         with:
           disable-sudo: true
-          egress-policy: block
-          allowed-endpoints: >
-            api.github.com:443
-            fulcio.sigstore.dev:443
-            rekor.sigstore.dev:443
-            github.com:443
-            nodejs.org:443
-            registry.npmjs.org:443
-            nodejs.org:443
-            *.actions.githubusercontent.com:443
-            actions.githubusercontent.com:443
-            *.githubapp.com:443
-            githubapp.com:443
+          egress-policy: audit
+          # allowed-endpoints: >
+          #   api.github.com:443
+          #   fulcio.sigstore.dev:443
+          #   rekor.sigstore.dev:443
+          #   github.com:443
+          #   nodejs.org:443
+          #   registry.npmjs.org:443
+          #   nodejs.org:443
+          #   *.actions.githubusercontent.com:443
+          #   actions.githubusercontent.com:443
+          #   *.githubapp.com:443
+          #   githubapp.com:443
       - name: ⚙️ Git Checkout
         uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
       - name: ⚙️ Install Node@20
